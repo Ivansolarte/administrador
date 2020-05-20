@@ -13,6 +13,9 @@ import { AppComponent } from './app.component';
 
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
+import { FormsModule } from '@angular/forms';
+
+import { IncrementadorComponent } from './components/incrementador/incrementador.component';
 
 
 
@@ -20,14 +23,16 @@ import { RegisterComponent } from './login/register.component';
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    // IncrementadorComponent
     
   ],
 
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PagesModule
+    PagesModule,
+    FormsModule
   ],
   
   providers: [],
