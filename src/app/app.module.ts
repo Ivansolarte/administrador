@@ -7,6 +7,9 @@ import { AppRoutingModule } from './app-routing.module';
 //modulos
 import { PagesModule } from './pages/pages.module';
 
+//servicios
+import { ServiceModule } from './services/service.module';
+
 
 //componetes
 import { AppComponent } from './app.component';
@@ -32,7 +35,8 @@ import { IncrementadorComponent } from './components/incrementador/incrementador
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
   
   providers: [],
